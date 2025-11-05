@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="continer">
+      <header class="header">
+        <!-- <video class="video_loop" autoplay>
+        <source src="dv.mp4" type="video/mp4" />
+      </video> -->
+        <input type="checkbox" class="burger_menu_checkbox" id="menu" />
+        <label class="burger_menu" for="menu">
+          <div class="burger_menu_bar"></div>
+          <div class="burger_menu_bar"></div>
+          <div class="burger_menu_bar"></div>
+        </label>
+        <input type="checkbox" class="burger_menu_checkbox" id="menu" />
+        <nav class="navegation">
+          <ul class="navegation_list">
+            <li>
+              <a href="#skills" class="navegation_link nav_skills">Skills</a>
+            </li>
+            <li><a href="#media" class="navegation_link nav_med">Media</a></li>
+            <li>
+              <a href="#projects" class="navegation_link nav_proj">Projects</a>
+            </li>
+            <li>
+              <a href="#clients" class="navegation_link nav_clien">My Clints</a>
+            </li>
+            <li>
+              <a href="#contact" class="navegation_link nav_contact">contact</a>
+            </li>
+            <li><a href="#bio" class="navegation_link nav_bio">Bio</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__lable"></label>
+        </div>
+      </header>
+      <section id="bio" class="bio section">
+        <div class="bio_dat">
+          <h1 class="bio__heading">
+            Hi Ther, I'M Passionate Soft Ware Engneer
+          </h1>
+          <p class="bio_objective">
+            My Name Is <span class="bio_name">Abdulaziz Sali</span>, a
+            co-founder
+            <a href="https://almdrasa.com/" class="bio_almadrasa"
+              >Almadrasa.com</a
+            >
+            Software Engnering And a content creater who publish content on
+            <a
+              href="https://www.facebook.com/?locale=ar_AR"
+              class="bio_facebook"
+              >facebook</a
+            >
+          </p>
+
+          <a href="#contact" class="bio_link say_hi_link">Say Hi</a>
+          <a href="ashtratat almta`m.pdf" class="bio_link fine_out_link"
+            >Download CV <span class="bio_arrow">↓</span></a
+          >
+        </div>
+        <div class="bio_pic_content">
+          <img class="bio_pic" src="images/abdulaziz1.png" alt="img" />
+        </div>
+      </section>
+      <section id="skills" class="skills section section_with_bg">
+        <h2 class="h2_heading">Skills</h2>
+        <ul class="skill_list">
+          <li class="skill_item">
+            <h2 class="skills_title">HTML</h2>
+            <span class="skills_years">7 years</span>
+          </li>
+          <li class="skill_item">
+            <h2 class="skills_title">CSS</h2>
+            <span class="skills_years">4 Years</span>
+          </li>
+          <li class="skill_item">
+            <h2 class="skills_title">Javascript</h2>
+            <span class="skills_years">4 Years</span>
+          </li>
+          <li class="skill_item">
+            <h2 class="skills_title">React</h2>
+            <span class="skills_years">2Years</span>
+          </li>
+          <li class="skill_item">
+            <h2 class="skills_title">Redux</h2>
+            <span class="skills_years">1 Years</span>
+          </li>
+          <li class="skill_item">
+            <h2 class="skills_title">React Testing library</h2>
+            <span class="skills_years">1 Years</span>
+          </li>
+        </ul>
+      </section>
+      <section id="media" class="media section">
+        <video
+          class="media_vedio"
+          src="images/frontend.mp4"
+          poster="images/thumbnail.jpg"
+          controls
+        />
+        <source src="sua.mp4" class="media_vedio media" type="video/mp4" />
+      </section>
+      <section class="projects section" id="projects">
+        <h2 class="h2_heading">My Featured <br />Projects</h2>
+        <div class="project_main">
+          <img
+            class="projects_img"
+            src="images/project-1.jpg"
+            alt="Quran Tap Extension"
+          />
+          <div class="project_data">
+            <h3 class="h3_heading">
+              Quran Tab <br />
+              Extension
+            </h3>
+            <p class="project_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              repellat id minima voluptates rem ipsum blanditiis tempora minus,
+              illum labore. In, et quas.
+            </p>
+            <a href="#" class="project_links" target="_blank">Crome Link</a>
+            <span>-</span>
+            <a href="#" class="project_links" target="_blank">Edge Link</a>
+          </div>
+
+          <div class="project_data">
+            <h3 class="h3_heading">
+              Quran Tab <br />
+              Station
+            </h3>
+            <p class="project_description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+              possimus pariatur! Debitis.Quasi, possimus pariatur! Debitis
+            </p>
+            <a href="#" class="project_links" target="_blank">Crome Link</a>
+            <span>-</span>
+            <a href="#" class="project_links" target="_blank">Edge Link</a>
+          </div>
+          <img
+            class="projects_img"
+            src="images/project-2.jpg"
+            alt="Quran Station Extension"
+          />
+        </div>
+      </section>
+      <section id="clients" class="clients section section_with_bg">
+        <h2 class="h2_heading">What My Clints <br />Says</h2>
+        <div class="clients_opinions">
+          <div class="clients_wropper">
+            <p class="clients_opinion">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea,
+              quos? Sunt a iores iusto labore accusamus ut voluptate.
+              Voluptatibus adipisci mollitia ipsa itaque in voluptatum, incidunt
+              nam?
+            </p>
+            <p class="clients_opinion">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Eligendi, beatae exercitationem deserunt mollitia tempora totam
+              saepe, fuga possimus voluptate sed quibusdam quisquam quos hic in
+              rem commodi sunt at voluptatum.
+            </p>
+            <p class="clients_opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              molestiae neque quasi incidunt saepe, rem ex adipisci modi tempore
+              nulla ut illum. Quod aspernatur itaque corporis odit, rem eveniet
+              aut.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div>
+          <p class="contact_description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+            ratione accusantium libero cum aut voluptatibus velit quasi maiores
+            autem placeat in,
+          </p>
+          <a href="mailto:abdulazizsalh777@gmail.com" class="contact_emlil"
+            >abdulazizsalh777@gmail.com</a
+          >
+          <div class="contact_socils">
+            <a href="" class="contact_social"
+              ><img src="images/brand/facebook.svg" alt="Icon of facebook" /></a
+            ><a href="" class="contact_social"
+              ><img src="images/brand/twitter.svg" alt="Icon of twitter" /></a
+            ><a href="" class="contact_social"
+              ><img src="images/brand/youtube.svg" alt="Icon of youtube" /></a
+            ><a href="" class="contact_social"
+              ><img src="images/brand/github.svg" alt="Icon of github" /></a
+            ><a href="" class="contact_social"
+              ><img
+                src="images/brand/instagram.svg"
+                alt="Icon of instagram" /></a
+            ><a href="" class="contact_social"
+              ><img src="images/brand/LinkedIn.svg" alt="Icon of LinkedIn"
+            /></a>
+          </div>
+        </div>
+        <div class="cntact_formContent">
+          <h2 class="h2_heading">Let's <br />Together!</h2>
+          <form action="result.html">
+            <div class="contact_inputs">
+              <input
+                type="text"
+                class="contact_input"
+                placeholder="Ful Name"
+                name="fname"
+                required
+              />
+              <input
+                type="tel"
+                class="contact_input"
+                placeholder="Telephon"
+                name="tele"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                required
+              />
+            </div>
+            <textarea
+              class="contact_input contact_textarea"
+              name="description"
+              id="description"
+              placeholder="Your Massage"
+            ></textarea>
+            <input type="submit" class="contact_button" value="Send Massage" />
+          </form>
+        </div>
+      </section>
+      <footer class="foter">© 2025 By Abdulaziz Salih</footer>
+    </div>
+  </body>
+</html>

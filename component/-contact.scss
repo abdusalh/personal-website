@@ -1,0 +1,53 @@
+.contact {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20rem;
+  align-items: center;
+}
+.contact_description {
+  font-size: var(--font-size-20);
+  line-height: 1.9rem;
+}
+.contact_emlil {
+  font-weight: var(--font-weight-bold);
+  margin: 2.5rem;
+}
+.contact_socil {
+  transition: var(--transition-timing);
+}
+.contact_social:hover {
+  transform: scale(1.2);
+}
+.contact_inputs {
+  display: flex;
+  gap: 3rem;
+}
+.contact_input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 0.1rem solid var(--color-input-border);
+  flex: 1;
+}
+.contact_textarea {
+  width: 100%;
+  margin-top: 4rem;
+}
+.contact_button {
+  background-color: var(--color-link-bg);
+  color: var(--color-white);
+  padding: 1.7rem 1.8rem;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-24);
+  margin-top: 3.4rem;
+}
+
+.continer:has(#skills:target) .nav_skills,
+.continer:has(#media:target) .nav_med,
+.continer:has(#projects:target) .nav_proj,
+.continer:has(#clients:target) .nav_clien,
+.continer:has(#contact:target) .nav_contact,
+.continer:has(#bio:target) .nav_bio {
+  color: var(--color-blue);
+  text-decoration: underline;
+  font-weight: var(--font-weight-bold);
+}

@@ -1,0 +1,22 @@
+.skill_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+.skills_title {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+}
+.skills_years {
+  display: inline-block;
+  font-size: var(--font-size-20);
+  margin-top: 1rem;
+}
+
+.skill_item:hover {
+  text-shadow: 0 0 2px var(--color-green);
+}
+.skill_item {
+  transition: var(--transition-timing);
+  user-select: none;
+}
