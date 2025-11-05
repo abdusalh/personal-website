@@ -58,7 +58,7 @@
   position: relative;
   background-color: var(--color-black);
   width: 4.5rem;
-  height: 2rem;
+  height: 2.1rem;
   border-radius: 1.5rem;
   cursor: pointer;
   padding: 3px 4px;
@@ -77,9 +77,10 @@
   background-color: var(--color-white);
 }
 .toggle__checkbox:checked + .toggle__lable::after {
-  transform: translateX(1.2rem);
+  transform: translateX(2rem);
   background-color: var(--color-green);
 }
 .burger_menu_checkbox {
   display: none;
 }
+
